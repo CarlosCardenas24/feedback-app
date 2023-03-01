@@ -1,12 +1,12 @@
 import React from 'react'
-import '../assets/spinner.gif'
+import spinner from'../assets/spinner.gif'
 
 function Spinner() {
-  return (
-    <div>
-        
-    </div>
-  )
+  return <img 
+    src={spinner} 
+    alt='Loading...' 
+    style={{ width: '100px', margin: 'auto', display: 'block '}}
+    />
 }
 
 export default Spinner
